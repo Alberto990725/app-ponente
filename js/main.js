@@ -8,6 +8,8 @@ const agenda = [
   { icono: "bi-people", titulo: "Reto en parejas", texto: "Colaborar y resolver un conflicto." },
 ];
 
+let minombre = 'Luis Flores Velazquez';
+
 const lista = document.getElementById("lista-agenda");
 
 agenda.forEach((tema, i) => {
