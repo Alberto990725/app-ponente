@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: linear-gradient(135deg, #10151c 0%, #1f2a38 100%);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #f0883e;
+  color: #10151c;
+  font-size: 4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agenda-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.agenda-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.agenda-num {
+  color: #f0883e;
+  font-weight: 700;
+  font-family: monospace;
+}
