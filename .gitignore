@@ -3,3 +3,6 @@
 
 # Configuración local de Claude (no se sube)
 .claude/
+
+# Configuración local de VS Code (no se sube)
+.vscode/
