@@ -6,7 +6,7 @@ const agenda = [
   { icono: "bi-git", titulo: "Pull Requests", texto: "Proponer, revisar y fusionar cambios." },
   { icono: "bi-laptop", titulo: "Práctica guiada", texto: "Tu primer Pull Request paso a paso." },
   { icono: "bi-people", titulo: "Reto en parejas", texto: "Colaborar y resolver un conflicto." },
-  { titulo: "Card Brian", texto: "Holaaaaa :D (Modificación con Fork)"},
+  { titulo: "Card Brian", texto: "Holaaaaa :D (Modificación con bash)"},
 ];
 
 const lista = document.getElementById("lista-agenda");
